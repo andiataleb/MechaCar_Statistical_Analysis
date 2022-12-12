@@ -31,11 +31,11 @@ By looking at the table for all the manufacturing lots together, we can notice t
 
 ## T-Tests on Suspension Coils
 
-The t.test() function of the R was used to determine if the PSI mean across all manufacturing lots is different from the population mean of 1500 pounds per square inch. P-value of this test is 0.06028 and based on the standard of 0.05, it can be understand the there is not enough evidence to reject the null hypothesis which means that the mean of all manufacturing lots is not statistically different from the population mean of 1500 pound per square inch.
+The `t.test()` function of the R was used to determine if the PSI mean across all manufacturing lots is different from the population mean of 1500 pounds per square inch. P-value of this test is 0.06028 and based on the standard of 0.05, it can be understand the there is not enough evidence to reject the null hypothesis which means that the mean of all manufacturing lots is not statistically different from the population mean of 1500 pound per square inch.
 
 ![](/Images/6.png)
 
-The `subset()` function and its `subset()` argument was used to determine if the PSI for each manufacturing lot is statistically different from the population mean of 1500 pound per square inch.
+The `t.test()` function and its `subset()` argument was used to determine if the PSI for each manufacturing lot is statistically different from the population mean of 1500 pound per square inch.
 
 ![](/Images/5.png)
 
