@@ -22,9 +22,9 @@ R-squared value of the linear model is 0.7149. This means that this model can pr
 To answer this question, we created two summary statistics tables that can be viewed below: 
 The first table is for the suspension coil's PSI across all the manufacturing lots and the second table has the statistical information for the PSI for each manufacturing lot separately. 
 
-![]/(Images/3.png)
+![](/Images/3.png)
 
-![]/(Images/4.png)
+![](/Images/4.png)
 
 By looking at the table for all the manufacturing lots together, we can notice that the variance is 62.29 which meets the requirement. However, by looking at the summary table for each manufacturing lot separately, it's noticeable that suspension coils in lot 3 have a variance of 170.28 which is significantly higher than the design requirement of 100. Lot 1 and 2 have variances of 0.9795 and 7.469 respectively which are significantly lower than the desired 100. This information indicated that this design specification is not met for manufacturing lot 3. 
 
@@ -33,11 +33,11 @@ By looking at the table for all the manufacturing lots together, we can notice t
 
 The t.test() function of the R was used to determine if the PSI mean across all manufacturing lots is different from the population mean of 1500 pounds per square inch. P-value of this test is 0.06028 and based on the standard of 0.05, it can be understand the there is not enough evidence to reject the null hypothesis which means that the mean of all manufacturing lots is not statistically different from the population mean of 1500 pound per square inch.
 
-![]/(Images/6.png)
+![](/Images/6.png)
 
 The `subset()` function and its `subset()` argument was used to determine if the PSI for each manufacturing lot is statistically different from the population mean of 1500 pound per square inch.
 
-![]/(Images/5.png)
+![](/Images/5.png)
 
 Null hypothesis: There is no statistical difference between the mean of each lot and population mean (1500 PSI).
 - The p-value for lot 1 is 1 which is higher than 0.05. Therefore we fail to reject the null hypothesis for lot1.
