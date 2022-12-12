@@ -47,9 +47,9 @@ Null hypothesis: There is no statistical difference between the mean of each lot
 ## Study Design: MechaCar vs Competition
 
 - In order to compare performance of the MechaCar vehicles against performance of vehicles from a competitor company, we can consider metrics such as fuel efficiency in highway and city, horsepower and maintenance and repair costs.
-- The null hypothesis in this study is that there is no statistical difference between the MechaCar performance and the competitor's performance.
+- The null hypothesis(H0) in this study is that there is no statistical difference between the MechaCar performance and the competitor's performance.
 
-Alternativwe Hypothesis(Ha): There is a difference between the MechaCar's performance compared to the competitor's performance. 
+- Alternative Hypothesis(Ha): There is a difference between the MechaCar's performance compared to the competitor's performance. 
 
 - I would perform Multiple Linear Regression to see which metric has the highest impact on the vehicle and then I'll perform ANOVA test to compare the performance of the MechaCar vehicle against the competitor's vehicle.
 
